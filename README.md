@@ -66,8 +66,11 @@ I use "Oh My Tmux", my configs are also in this repo
 |`tmux copy-mode`|prefix + [|enter copy mode|
 |`tmux paste-buffer`|prefix + ]|paste the contents of the paste buffer in the current pane|
 
-## Useful commands
+## Helpful links
 
-* `tmux list-keys` lists out every bound key and the tmux command it runs
+* https://tmuxcheatsheet.com/
+* https://github.com/tmux-plugins/
+* https://github.com/gpakosz/.tmux
+* https://github.com/tmux/tmux/wiki
 
 
