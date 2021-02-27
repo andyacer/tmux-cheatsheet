@@ -30,12 +30,13 @@ I copied this from an existing Gist because I liked the format.  That author als
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
-|`tmux next-window`|prefix + l|kill the current window|
-|`tmux previous-window`|prefix + h|kill the current window|
+|`tmux next-window`|prefix + n|go to the next window|
+|`tmux previous-window`|prefix + p|go to the previous window|
 |`tmux new-window`|prefix + c|create a new window|
 |`tmux select-window -t :0-9`|prefix + 0-9|move to the window based on index|
 |`tmux rename-window`|prefix + ,|rename the current window|
 |`tmux find-window`|prefix + f|find window from matching text (e.g. the window name)|
+|`tmux last-window`|prefix + tab|jump to the last used window|
 |`tmux kill-window`|prefix + &|kill the current window|
 
 
@@ -45,18 +46,25 @@ I copied this from an existing Gist because I liked the format.  That author als
 |---------|----------|-------------|
 |`tmux split-window`|prefix + "|splits the window into two vertical panes|
 |`tmux split-window -h`|(prefix + %|splits the window into two horizontal panes|
-|`tmux swap-pane -[UDLR]`|prefix + { or }|swaps pane with another in the specified direction|
-|`tmux select-pane -[UDLR]`||selects the next pane in the specified direction|
-|`tmux select-pane -t :.+`||selects the next pane in numerical order|
-||prefix + q|show pane numbers|
+|`tmux swap-pane -[UDLR]`|prefix + { or } ++ < or > |swaps pane with another in the specified direction|
+|`tmux select-pane -[UDLR]`|prefix + arrow-key|selects the next pane in the specified direction|
+|`tmux select-pane -t :.+`|prefix + o|selects the next pane in numerical order|
+|`tmux display-panes`|prefix + q|show pane numbers|
+|`tmux display-panes`|prefix + q [0-9]|select pane by number - you gotta be quick though =)|
 |`tmux kill-pane`|prefix + x|kill current pane|
+|`tmux break-pane`|prefix + !|breakout the pane into its own new window|
+|`tmux join-pane`|prefix + s|send pane TO window number|
+|`tmux join-pane`|prefix + j|join pane FROM window number|
+
+
+
+| Command | Shortcut | Description |
+|---------|----------|-------------|
 |`tmux copy-mode`|prefix + [|enter copy mode|
 |`tmux paste-buffer`|prefix + ]|paste the contents of the paste buffer in the current pane|
 
 ## Useful commands
 
 * `tmux list-keys` lists out every bound key and the tmux command it runs
-* `tmux list-commands` lists out every tmux command and its arguments
-* `tmux info` lists out every session, window, pane, its PID, etc
-* `tmux source-file ~/.tmux.conf` reloads the configuration file
+
 
