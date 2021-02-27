@@ -63,8 +63,22 @@ I use "Oh My Tmux", my configs are also in this repo
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
-|`tmux copy-mode`|prefix + [|enter copy mode|
-|`tmux paste-buffer`|prefix + ]|paste the contents of the paste buffer in the current pane|
+|`tmux copy-mode`|prefix + [|Enter copy mode|
+|`tmux choose-buffer`|prefix + =]|Choose a buffer to paste from|
+|`tmux list-buffers`|prefix + '+'|Faster viewing buffer list|
+|`copy-pipe `|y|yank the selected text to a buffer and clipboard|
+|`copy-pipe-and-cancel `|Y|copied text pasted to command prompt & buffer - NO clipboard|
+||/|Search from the start of the entire pane buffer.|
+||?|Search backward|
+||g|Go to top line|
+||G|Go to last line|
+||PgUp|Page Up|
+||PgDown|Page Down|
+||q|Quit copy-mode|
+|`tmux save-buffer buf.txt`||Save buffer contents to buf.txt|
+|`tmux capture-pane`||Don't do this, use the loggin plugin instead|
+
+
 
 ## Helpful links
 
@@ -72,5 +86,5 @@ I use "Oh My Tmux", my configs are also in this repo
 * https://github.com/tmux-plugins/
 * https://github.com/gpakosz/.tmux
 * https://github.com/tmux/tmux/wiki
-
+* https://gist.github.com/Bekbolatov/6840069e51382965fdad
 
