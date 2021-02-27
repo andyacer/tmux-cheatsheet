@@ -164,7 +164,6 @@ bind-key -r -T prefix       C-h                  previous-window
 bind-key    -T prefix       Tab                  last-window
 bind-key -r -T prefix       C-l                  next-window
 bind-key    -T prefix       Enter                copy-mode
-bind-key    -T prefix       C-o                  rotate-window
 bind-key    -T prefix       C-u                  run-shell "/home/osboxes/.tmux/plugins/tmux-copycat/scripts/copycat_mode_start.sh '(https?://|git@|git://|ssh://|ftp://|file:///)[[:alnum:]?=%/_.:,;~@!#$&()*+-]*'"
 bind-key    -T prefix       C-z                  suspend-client
 bind-key    -T prefix       Space                next-layout
@@ -219,17 +218,15 @@ bind-key    -T prefix       c                    new-window
 bind-key    -T prefix       d                    detach-client
 bind-key    -T prefix       e                    new-window -n /home/osboxes/.tmux.conf.local "EDITOR=\${EDITOR//mvim/vim} && EDITOR=\${EDITOR//gvim/vim} && \${EDITOR:-vim} ~/.tmux.conf.local && tmux source ~/.tmux.conf && tmux display \"~/.tmux.conf sourced\""
 bind-key    -T prefix       f                    command-prompt "find-window -Z -- '%%'"
-bind-key -r -T prefix       h                    select-pane -L
 bind-key    -T prefix       i                    display-message
 bind-key    -T prefix       j                    command-prompt -p "join pane from:" "join-pane -s '%%'"
-bind-key -r -T prefix       k                    select-pane -U
-bind-key -r -T prefix       l                    select-pane -R
 bind-key    -T prefix       m                    run-shell "cut -c3- ~/.tmux.conf | sh -s _toggle_mouse"
+bind-key    -T prefix       n                    next-window
 bind-key    -T prefix       o                    select-pane -t :.+
-bind-key    -T prefix       p                    paste-buffer
+bind-key    -T prefix       p                    previous-window
 bind-key    -T prefix       q                    display-panes
 bind-key    -T prefix       r                    source-file /home/osboxes/.tmux.conf \; display-message "\~/.tmux.conf sourced"
-bind-key    -T prefix       s                    command-prompt -p "send pane to:" "join-pane -t '%%'"
+bind-key    -T prefix       s                    choose-tree -Zs
 bind-key    -T prefix       t                    clock-mode
 bind-key    -T prefix       w                    choose-tree -Zw
 bind-key    -T prefix       x                    confirm-before -p "kill-pane #P? (y/n)" kill-pane

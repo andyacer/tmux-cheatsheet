@@ -12,30 +12,32 @@ I copied this from an existing Gist because I liked the format.  That author als
 |---------|----------|-------------|
 |`:list-commands`||List all available tmux commands|
 |`:list-keys`||show list of all currently assigned keys|
-
-
-
+|`:display-panes`|prefix + q|show pane numbers|
+|`tmux list-sessions`|prefix + i|lists existing tmux sessions|
 
 ## Session Management
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
+|`tmux list-sessions`|prefix + i|lists existing tmux sessions|
 |`tmux new -s session_name`||creates a new tmux session named session_name|
 |`tmux rename-session`|prefix + $|rename the current session|
 |`tmux attach -t session_name`||attaches to an existing tmux session named session_name|
-|`tmux switch -t session_name`||switches to an existing session named session_name|
-|`tmux list-sessions`|prefix + s|lists existing tmux sessions|
 |`tmux detach`|prefix + d|detach the currently attached session|
+
 
 ## Windows
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
+|`tmux next-window`|prefix + l|kill the current window|
+|`tmux previous-window`|prefix + h|kill the current window|
 |`tmux new-window`|prefix + c|create a new window|
 |`tmux select-window -t :0-9`|prefix + 0-9|move to the window based on index|
 |`tmux rename-window`|prefix + ,|rename the current window|
 |`tmux find-window`|prefix + f|find window from matching text (e.g. the window name)|
 |`tmux kill-window`|prefix + &|kill the current window|
+
 
 ## Panes
 
