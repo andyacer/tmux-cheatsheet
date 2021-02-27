@@ -48,20 +48,3 @@ I copied this from an existing Gist because I liked the format.  That author als
 * `tmux info` lists out every session, window, pane, its PID, etc
 * `tmux source-file ~/.tmux.conf` reloads the configuration file
 
-## Very large history.
-
-From [https://unix.stackexchange.com/questions/43414/unlimited-history-in-tmux](https://unix.stackexchange.com/questions/43414/unlimited-history-in-tmux):
-
-```
-set -g history-limit 999999999
-```
-
-## Colors
-
-- https://github.com/seebi/tmux-colors-solarized
-- https://superuser.com/questions/285381/how-does-the-tmux-color-palette-work
-
-## Some .tmux.conf files
-
-- [https://github.com/henrik/dotfiles/blob/master/tmux.conf](https://github.com/henrik/dotfiles/blob/master/tmux.conf)
-- [https://github.com/eevee/rc/blob/master/.tmux.conf](https://github.com/eevee/rc/blob/master/.tmux.conf)
