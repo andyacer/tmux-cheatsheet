@@ -5,6 +5,9 @@ I copied this from an existing Gist because I liked the format.  That author als
 * [A tmux crash course](https://robots.thoughtbot.com/a-tmux-crash-course)
 * [tmux cheatsheet from @henrik](https://gist.github.com/henrik/1967800)
 
+I use "Oh My Tmux", my configs are also in this repo
+* [Oh My Tmux!](https://github.com/gpakosz/.tmux)
+
 
 ## Introspection
 
@@ -44,9 +47,9 @@ I copied this from an existing Gist because I liked the format.  That author als
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
-|`tmux split-window`|prefix + "|splits the window into two vertical panes|
-|`tmux split-window -h`|(prefix + %|splits the window into two horizontal panes|
-|`tmux swap-pane -[UDLR]`|prefix + { or } ++ < or > |swaps pane with another in the specified direction|
+|`tmux split-window`|prefix + " or \| or ' |splits the window into two vertical panes|
+|`tmux split-window -h`|(prefix + % or -|splits the window into two horizontal panes|
+|`tmux swap-pane -[UDLR]`|prefix + { or } \| < or > |swaps pane with another in the specified direction|
 |`tmux select-pane -[UDLR]`|prefix + arrow-key|selects the next pane in the specified direction|
 |`tmux select-pane -t :.+`|prefix + o|selects the next pane in numerical order|
 |`tmux display-panes`|prefix + q|show pane numbers|
@@ -56,7 +59,7 @@ I copied this from an existing Gist because I liked the format.  That author als
 |`tmux join-pane`|prefix + s|send pane TO window number|
 |`tmux join-pane`|prefix + j|join pane FROM window number|
 
-
+## Copy mode
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
