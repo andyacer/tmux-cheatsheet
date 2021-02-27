@@ -6,6 +6,16 @@ I copied this from an existing Gist because I liked the format.  That author als
 * [tmux cheatsheet from @henrik](https://gist.github.com/henrik/1967800)
 
 
+## Introspection
+
+| Command | Shortcut | Description |
+|---------|----------|-------------|
+|`:list-commands`||List all available tmux commands|
+|`:list-keys`||show list of all currently assigned keys|
+
+
+
+
 ## Session Management
 
 | Command | Shortcut | Description |
