@@ -14,7 +14,7 @@ I use "Oh My Tmux", my configs are also in this repo
 | Command | Shortcut | Description |
 |---------|----------|-------------|
 |`:list-commands`||List all available tmux commands|
-|`:list-keys`||show list of all currently assigned keys|
+|`:list-keys`|alias `keys` in zsh|show list of all currently assigned keys|
 |`:display-panes`|prefix + q|show pane numbers|
 |`tmux list-sessions`|prefix + i|lists existing tmux sessions|
 
@@ -36,6 +36,7 @@ I use "Oh My Tmux", my configs are also in this repo
 |`tmux next-window`|prefix + n|go to the next window|
 |`tmux previous-window`|prefix + p|go to the previous window|
 |`tmux new-window`|prefix + c|create a new window|
+|`tmux swap-window`|Ctrl + shift + LR|Change window ordering Left / Right|
 |`tmux select-window -t :0-9`|prefix + 0-9|move to the window based on index|
 |`tmux rename-window`|prefix + ,|rename the current window|
 |`tmux find-window`|prefix + f|find window from matching text (e.g. the window name)|
@@ -88,3 +89,8 @@ I use "Oh My Tmux", my configs are also in this repo
 * https://github.com/tmux/tmux/wiki
 * https://gist.github.com/Bekbolatov/6840069e51382965fdad
 
+## Helpful man page screenshots
+
+[//]: <> This is an invisible comment.  Just a placeholder / example
+
+[//]: <> ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
