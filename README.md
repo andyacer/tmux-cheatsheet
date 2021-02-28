@@ -64,6 +64,9 @@ Some of these shortcuts reference aliases in my .zshrc file.
 |`tmux break-pane`|prefix + !|breakout the pane into its own new window|
 |`tmux join-pane`|prefix + s|send pane TO window number|
 |`tmux join-pane`|prefix + j|join pane FROM window number|
+|`yank line`|prefix + y|Uses yank plugin to copy command line to the clipboard|
+|`yank pwd`|prefix + Y|Uses yank plugin to PWD to clipboard|
+
 
 ## Copy mode
 
