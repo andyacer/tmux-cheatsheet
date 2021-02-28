@@ -91,6 +91,18 @@ I use "Oh My Tmux", my configs are also in this repo
 
 ## Helpful man page screenshots
 
+<img src="https://github.com/andyacer/tmux-cheatsheet/raw/main/choose-buffer.png" width=200>
+
+
+
+<!-- 
+
+![choose buffer man page](https://github.com/andyacer/tmux-cheatsheet/raw/main/choose-buffer.png?s=350)
+
 [//]: <> This is an invisible comment.  Just a placeholder / example
 
 [//]: <> ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+
+
+ -->
