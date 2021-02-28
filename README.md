@@ -83,7 +83,7 @@ I use "Oh My Tmux", my configs are also in this repo
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
-|`echo "test" | clip`|alias of `xclip selection c`|Pipe output of command to clipboard using xclip|
+|`echo "test" \| clip`|alias of `xclip selection c`|Pipe output of command to clipboard using xclip|
 
 
 ## Helpful links
