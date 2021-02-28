@@ -15,13 +15,13 @@ Some of these shortcuts reference aliases in my .zshrc file.
 | Command | Shortcut | Description |
 |---------|----------|-------------|
 |`:list-commands`||List all available tmux commands|
-|`:list-keys`|`keys` in zsh|show list of all currently assigned keys|
+|`:list-keys`|`keys` alias in shell|show list of all currently assigned keys|
 |`:display-panes`|prefix + q|Show pane numbers|
 |`tmux list-sessions`|prefix + i|Lists existing tmux sessions|
 |`sublime ~/.tmux.conf.local`|prefix + e|Open up tmux config in an editor|
 |`source-file ~/.tmux.conf`|prefix + r|Reload tmux configuration|
 |`xclip selection c`|`echo "test" \| clip`|Pipe output of command to clipboard using xclip|
-|`sublime ~/.zshrc`|`profile` in zsh|Open up ZSH config profile in Sublime editor|
+|`sublime ~/.zshrc`|`profile` alias in shell|Open up ZSH config profile in Sublime editor|
 
 ## Session Management
 
@@ -66,7 +66,7 @@ Some of these shortcuts reference aliases in my .zshrc file.
 |`tmux join-pane`|prefix + j|join pane FROM window number|
 |`yank line`|prefix + y|Uses yank plugin to copy command line to the clipboard|
 |`yank pwd`|prefix + Y|Uses yank plugin to PWD to clipboard|
-|`tmux respawn-pane -k`||Reload a new shell in the current pane. To get new aliases loaded and stuff.|
+|`tmux respawn-pane -k`|`repane` alias in shell|Reload a new shell in the current pane. To get new aliases loaded and stuff.|
 
 ## Copy mode
 
