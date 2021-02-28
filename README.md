@@ -14,9 +14,11 @@ I use "Oh My Tmux", my configs are also in this repo
 | Command | Shortcut | Description |
 |---------|----------|-------------|
 |`:list-commands`||List all available tmux commands|
-|`:list-keys`|alias `keys` in zsh|show list of all currently assigned keys|
-|`:display-panes`|prefix + q|show pane numbers|
-|`tmux list-sessions`|prefix + i|lists existing tmux sessions|
+|`:list-keys`|Alias `keys` in zsh|show list of all currently assigned keys|
+|`sublime ~/.tmux.conf.local`|prefix + e|Open up tmux config in an editor|
+|`:display-panes`|prefix + q|Show pane numbers|
+|`tmux list-sessions`|prefix + i|Lists existing tmux sessions|
+
 
 ## Session Management
 
@@ -79,6 +81,14 @@ I use "Oh My Tmux", my configs are also in this repo
 |`tmux save-buffer buf.txt`||Save buffer contents to buf.txt|
 |`tmux capture-pane`||Don't do this, use the loggin plugin instead|
 
+
+## Logging (Plugin-based)
+
+| Command | Shortcut | Description |
+|---------|----------|-------------|
+|`tmux copy-mode`|prefix + [|Enter copy mode|
+|`tmux choose-buffer`|prefix + =]|Choose a buffer to paste from|
+
 ## Non-tmux shortcuts
 
 | Command | Shortcut | Description |
@@ -103,5 +113,6 @@ I use "Oh My Tmux", my configs are also in this repo
 
 Comments / testing stuff here:
 
+'#{pane_current_path}'
 
  -->
