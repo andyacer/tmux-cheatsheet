@@ -91,11 +91,12 @@ I use "Oh My Tmux", my configs are also in this repo
 
 ## Helpful man page screenshots
 
-<img src="https://github.com/andyacer/tmux-cheatsheet/raw/main/choose-buffer.png" width=200>
-
+<img src="https://github.com/andyacer/tmux-cheatsheet/raw/main/choose-buffer.png">
 
 
 <!-- 
+
+<img src="https://github.com/andyacer/tmux-cheatsheet/raw/main/choose-buffer.png" width=800>
 
 ![choose buffer man page](https://github.com/andyacer/tmux-cheatsheet/raw/main/choose-buffer.png?s=350)
 
