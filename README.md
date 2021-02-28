@@ -66,7 +66,7 @@ Some of these shortcuts reference aliases in my .zshrc file.
 |`tmux join-pane`|prefix + j|join pane FROM window number|
 |`yank line`|prefix + y|Uses yank plugin to copy command line to the clipboard|
 |`yank pwd`|prefix + Y|Uses yank plugin to PWD to clipboard|
-
+|`tmux respawn-pane -k`||Reload a new shell in the current pane. To get new aliases loaded and stuff.|
 
 ## Copy mode
 
