@@ -8,17 +8,20 @@ I copied this from an existing Gist because I liked the format.  That author als
 I use "Oh My Tmux", my configs are also in this repo
 * [Oh My Tmux!](https://github.com/gpakosz/.tmux)
 
+Some of these shortcuts reference aliases in my .zshrc file.
 
-## Introspection
+## Introspection / General
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
 |`:list-commands`||List all available tmux commands|
-|`:list-keys`|Alias `keys` in zsh|show list of all currently assigned keys|
-|`sublime ~/.tmux.conf.local`|prefix + e|Open up tmux config in an editor|
+|`:list-keys`|`keys` in zsh|show list of all currently assigned keys|
 |`:display-panes`|prefix + q|Show pane numbers|
 |`tmux list-sessions`|prefix + i|Lists existing tmux sessions|
-
+|`sublime ~/.tmux.conf.local`|prefix + e|Open up tmux config in an editor|
+|`source-file ~/.tmux.conf`|prefix + r|Reload tmux configuration|
+|`xclip selection c`|`echo "test" \| clip`|Pipe output of command to clipboard using xclip|
+|`sublime ~/.zshrc`|`profile` in zsh|Open up ZSH config profile in Sublime editor|
 
 ## Session Management
 
@@ -71,6 +74,7 @@ I use "Oh My Tmux", my configs are also in this repo
 |`tmux list-buffers`|prefix + '+'|Faster viewing buffer list|
 |`copy-pipe `|y|yank the selected text to a buffer and clipboard|
 |`copy-pipe-and-cancel `|Y|copied text pasted to command prompt & buffer - NO clipboard|
+|`copy-line`|Triple-Click (Mouse)|Select full line|
 ||/|Search from the start of the entire pane buffer.|
 ||?|Search backward|
 ||g|Go to top line|
@@ -90,12 +94,6 @@ I use "Oh My Tmux", my configs are also in this repo
 ||prefix + alt + p|Screen capture the current pane (ONLY visible)|
 ||prefix + alt + shfit + p|Capture ENTIRE pane's history to file|
 
-## Non-tmux shortcuts
-
-| Command | Shortcut | Description |
-|---------|----------|-------------|
-|`xclip selection c`|`echo "test" \| clip`|Pipe output of command to clipboard using xclip|
-|`sublime ~/.zshrc`|`profile`|Open up ZSH config profile in Sublime editor|
 
 
 
@@ -116,6 +114,14 @@ I use "Oh My Tmux", my configs are also in this repo
 
 Comments / testing stuff here:
 
-'#{pane_current_path}'
+
+## Non-tmux shortcuts
+
+| Command | Shortcut | Description |
+|---------|----------|-------------|
+|`xclip selection c`|`echo "test" \| clip`|Pipe output of command to clipboard using xclip|
+|`sublime ~/.zshrc`|`profile`|Open up ZSH config profile in Sublime editor|
+
+
 
  -->
