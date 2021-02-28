@@ -79,21 +79,24 @@ I use "Oh My Tmux", my configs are also in this repo
 ||PgDown|Page Down|
 ||q|Quit copy-mode|
 |`tmux save-buffer buf.txt`||Save buffer contents to buf.txt|
-|`tmux capture-pane`||Don't do this, use the loggin plugin instead|
+|`tmux capture-pane`||Don't do this, use the logging plugin instead (see below)|
 
 
 ## Logging (Plugin-based)
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
-|`tmux copy-mode`|prefix + [|Enter copy mode|
-|`tmux choose-buffer`|prefix + =]|Choose a buffer to paste from|
+||prefix + shift + p|Start/stop logging of the current pane|
+||prefix + alt + p|Screen capture the current pane (ONLY visible)|
+||prefix + alt + shfit + p|Capture ENTIRE pane's history to file|
 
 ## Non-tmux shortcuts
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
-|`echo "test" \| clip`|alias of `xclip selection c`|Pipe output of command to clipboard using xclip|
+|`xclip selection c`|`echo "test" \| clip`|Pipe output of command to clipboard using xclip|
+|`sublime ~/.zshrc`|`profile`|Open up ZSH config profile in Sublime editor|
+
 
 
 ## Helpful links
