@@ -79,6 +79,11 @@ I use "Oh My Tmux", my configs are also in this repo
 |`tmux save-buffer buf.txt`||Save buffer contents to buf.txt|
 |`tmux capture-pane`||Don't do this, use the loggin plugin instead|
 
+## Non-tmux shortcuts
+
+| Command | Shortcut | Description |
+|---------|----------|-------------|
+|`echo "test" | clip`|alias of `xclip selection c`|Pipe output of command to clipboard using xclip|
 
 
 ## Helpful links
@@ -96,14 +101,7 @@ I use "Oh My Tmux", my configs are also in this repo
 
 <!-- 
 
-<img src="https://github.com/andyacer/tmux-cheatsheet/raw/main/choose-buffer.png" width=800>
-
-![choose buffer man page](https://github.com/andyacer/tmux-cheatsheet/raw/main/choose-buffer.png?s=350)
-
-[//]: <> This is an invisible comment.  Just a placeholder / example
-
-[//]: <> ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-
+Comments / testing stuff here:
 
 
  -->
