@@ -5,7 +5,7 @@ I copied this from an existing Gist because I liked the format.  That author als
 * [A tmux crash course](https://robots.thoughtbot.com/a-tmux-crash-course)
 * [tmux cheatsheet from @henrik](https://gist.github.com/henrik/1967800)
 
-I use "Oh My Tmux", these configs use it as a baseline:
+I use "Oh My Tmux", the key bindings below use it as a baseline:
 * [Oh My Tmux!](https://github.com/gpakosz/.tmux)
 
 Some of these shortcuts reference aliases in my .zshrc file.
