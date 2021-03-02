@@ -32,6 +32,8 @@ Some of these shortcuts reference aliases in my .zshrc file.
 |`tmux rename-session`|prefix + $|rename the current session|
 |`tmux attach -t session_name`||attaches to an existing tmux session named session_name|
 |`tmux detach`|prefix + d|detach the currently attached session|
+|`resurrect save`|prefix + Ctrl-s|Save the entire session, windows, panes, etc. to disk|
+|`resurrect restore`|prefix + Ctrl-r|Restore session from disk. Not sure how to select among saves|
 
 
 ## Windows
