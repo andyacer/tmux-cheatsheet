@@ -109,6 +109,7 @@ Some of these shortcuts reference aliases in my .zshrc file.
 * https://github.com/gpakosz/.tmux
 * https://github.com/tmux/tmux/wiki
 * https://gist.github.com/Bekbolatov/6840069e51382965fdad
+* https://hashcat.net/wiki/doku.php?id=example_hashes
 
 ## Helpful man page screenshots
 
