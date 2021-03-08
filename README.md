@@ -95,11 +95,9 @@ Some of these shortcuts reference aliases in my .zshrc file.
 
 | Command | Shortcut | Description |
 |---------|----------|-------------|
-||prefix + shift + p|Start/stop logging of the current pane|
+||prefix + shift + p|Capture entire pane's history to file|
+||prefix + alt + shift + p|Start/stop logging of the current pane|
 ||prefix + alt + p|Screen capture the current pane (ONLY visible)|
-||prefix + alt + shfit + p|Capture ENTIRE pane's history to file|
-
-
 
 
 ## Helpful links

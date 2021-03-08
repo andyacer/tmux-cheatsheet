@@ -416,6 +416,16 @@ bind-key -n C-S-Right swap-window -t +1\; select-window -t +1
 # Open this file in sublime!
 bind e run-shell "sublime ~/.tmux.conf.local"
 
+# --------------------------------------------------------
+# Logging - swapping logging and save complete history...
+
+# Don't need to unbind if I bind right over it...
+# Clear the choose-buffer thing... I did that already... wth...
+
+set -g @save-complete-history-key "P"  #Shift-p
+set -g @logging_key "M-P" # Alt-shift-p
+
+
 # -- tpm -----------------------------------------------------------------------
 
 # while I don't use tpm myself, many people requested official support so here
@@ -484,14 +494,6 @@ set -g @plugin 'tmux-plugins/tmux-resurrect'
 #   ping -c 1 1.1.1.1 >/dev/null 2>&1 && printf '✔' || printf '✘'
 # }
 #
-# logging() {
-#   local current_pane_logging=$(tmux show-option -gv "$(tmux display-message -p @#{session_name}_#{window_index}_#{pane_index})")
-#   if [ "$current_pane_logging" == "logging" ]; then
-#	  printf 'ON ✔'
-#   else
-#     printf 'OFF x'
-#   fi
-# }
 #
 # "$@"
 # # /!\ do not remove the previous line
