@@ -113,6 +113,17 @@ Some of these shortcuts reference aliases in my .zshrc file.
 
 <img src="https://github.com/andyacer/tmux-cheatsheet/raw/main/choose-buffer.png">
 
+## More
+
+Capture pane to file
+
+https://unix.stackexchange.com/questions/26548/write-all-tmux-scrollback-to-a-file
+
+`Prefix + :` to get the Tmux command prompt, then:
+```
+capture-pane -S -
+save-buffer
+```
 
 <!-- 
 
