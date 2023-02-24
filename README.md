@@ -122,7 +122,8 @@ https://unix.stackexchange.com/questions/26548/write-all-tmux-scrollback-to-a-fi
 `Prefix + :` to get the Tmux command prompt, then:
 ```
 capture-pane -S -
-save-buffer
+save-buffer ~/buffname.txt
+clear-history
 ```
 
 <!-- 
