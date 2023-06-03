@@ -115,6 +115,8 @@ Some of these shortcuts reference aliases in my .zshrc file.
 
 ## More
 
+Just use the logging plugin!  I've got it loaded :) "Prefix + Shift + p"
+
 Capture pane to file
 
 https://unix.stackexchange.com/questions/26548/write-all-tmux-scrollback-to-a-file
